@@ -1,0 +1,48 @@
+@media (max-width: 740px) {
+    .main__menu {
+        display: none;
+    }
+
+    .nav__menu__mobile {
+      background-color: rgb(235, 181, 190);
+      position: fixed;
+      z-index: 1;
+      right: 0;
+      left: 0;
+      top: 0;
+      height: 45px;
+      
+    }
+    .nav__menu__mobile  .nav__ul__mobile {
+        width: 800px;
+  
+    }
+
+    .nav__menu__mobile  .nav__ul__mobile  li {
+        display: inline-block;
+        line-height: 45px;
+    }
+
+    .nav__menu__mobile .nav__ul__mobile li:hover {
+        background-color: silver;
+
+        
+    }
+    .nav__menu__mobile .nav__ul__mobile li a {
+      text-decoration: none;
+      color: white;
+      text-transform: uppercase;
+      padding: 0 20px;
+      display: block;
+      max-width: 100%;
+    }
+
+
+
+}
+
+@media (min-width: 741px) {
+    #main .nav__menu__mobile {
+        display: none;
+    }
+}
